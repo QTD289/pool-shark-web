@@ -6,7 +6,7 @@ module.exports = {
   template: './dist/index.html',
   favicon: './src/favicon.ico',
   api_service_url: 'http://localhost:3030/api/v1',
-  app_contract_address: '0x4a746397E9666642E48cBC3FB6308Fb6D782C4b4', //ropsten
-  eth_network: '3',
+  app_contract_address: '0x210cd4170f609b7a9d93019918818e9e6389ee40', //ropsten
+  eth_network: '3333',
   ether_scan: 'https://ropsten.etherscan.io/'
 };

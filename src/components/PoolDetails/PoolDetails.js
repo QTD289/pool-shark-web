@@ -83,7 +83,7 @@ class PoolDetails extends Component {
           this.props.fetched && <PoolDetailsField
             address={this.props.details.address}
             name={this.props.details.name}
-            rate={this.props.details.name}
+            rate={this.props.details.rate}
             deadline={this.props.details.deadline}
             amount_eth_collected={this.props.details.collected_eth}
             amount_points_collected={this.props.details.points_distributed}
