@@ -30,7 +30,7 @@ export const createPool = (pool) => {
             address: account,
             transaction_id: transactionId,
             transaction_type: 'CreatePool'
-          }).then(response => {
+          }).then(() => {
             resolve(transactionId);
           }).catch((err) => {
             reject(err);
