@@ -24,6 +24,9 @@
   },
   "keywords": [],
   "author": "",
+  "engines": {
+    "node": "11.0.0"
+  },
   "license": "ISC",
   "babel": {
     "presets": [
@@ -55,7 +58,6 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
     "url-loader": "^0.6.2",
-
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.0.0",
