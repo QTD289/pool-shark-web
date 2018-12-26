@@ -7,7 +7,7 @@ const config = {
     compress: true,
     historyApiFallback: true,
     hot: false,
-    port: 443
+    port: process.env.PORT || 9000
   }
 };
 
